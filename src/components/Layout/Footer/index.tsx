@@ -34,11 +34,11 @@ const Footer: FC = () => {
                 />
                 <div className="">
                   <h5 className="text-sm text-midnight_text dark:text-white mb-4">
-                    Endeavor Head Office
+                    World Citizens Alliance Head Office
                   </h5>
                   <p className="text-sm text-muted dark:text-white/60">
-                    134, Cornish Building, Some Near by area, New York, USA -
-                    34556
+                    P.O.Box KIA 1915 Trassaco junction, Adjiringanor, EastLegon,
+                    Accra, Ghana -
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Footer: FC = () => {
                     href="#"
                     className="text-sm text-midnight_text dark:text-white mb-0 hover:text-primary!"
                   >
-                    1 (888) 123 4567
+                    (+233) 249010579
                   </Link>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const Footer: FC = () => {
                     href="#"
                     className="text-sm text-midnight_text dark:text-white mb-0 hover:text-primary!"
                   >
-                    info@endeavor.com
+                    info@worldcitizensalliance.com
                   </Link>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const Footer: FC = () => {
               href="https://nextjs-templates.com/"
               className="hover:text-primary!"
             >
-              Next.js Templates
+              Worldcitizensalliance.org
             </Link>
             .
           </p>

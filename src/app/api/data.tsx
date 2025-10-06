@@ -208,34 +208,46 @@ export const Eventdata: {
 
 export const footerLinks: { link: string }[] = [
   {
-    link: "Medical crowdfunding",
+    link: "Social Media & Disinformation",
   },
   {
-    link: "Cancer Crowdfunding",
+    link: "Economic Growth and Sectoral Challenges",
   },
   {
-    link: "Transplant Crowdfunding",
+    link: "Protection of Whistleblower",
   },
   {
-    link: "Education Crowdfunding",
+    link: "Decent Work and Fair Wages",
   },
   {
-    link: "Child Welfare",
+    link: "Eradication of Modern Slavey",
   },
   {
-    link: "Medical Finance",
+    link: "Environmental Sustainability and Climate Change",
   },
   {
-    link: "FAQs & Help Center",
+    link: "Blogs",
   },
   {
-    link: "Fundraiser Video",
+    link: "Press Media",
   },
   {
-    link: "Trust & Safety",
+    link: "Careers",
   },
   {
-    link: "Plans & Pricing*",
+    link: "Code of Ethics",
+  },
+  {
+    link: "Privacy Policy",
+  },
+  {
+    link: "Terms & Conditions",
+  },
+  {
+    link: "Scam Warning",
+  },
+  {
+    link: "FAQ",
   },
 ];
 
