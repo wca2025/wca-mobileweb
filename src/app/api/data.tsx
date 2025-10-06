@@ -208,9 +208,6 @@ export const Eventdata: {
 
 export const footerLinks: { link: string }[] = [
   {
-    link: "Social Media & Disinformation",
-  },
-  {
     link: "Economic Growth and Sectoral Challenges",
   },
   {
