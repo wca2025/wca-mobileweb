@@ -34,14 +34,14 @@ const Newsletter = () => {
                             </div>
                             <div className="flex items-center gap-2 mb-6">
                                 <input type="checkbox" name="condition" id="condition" />
-                                <label htmlFor="condition" className="text-base text-muted dark:text-white/60">I am agree with the terms and conditions</label>
+                                <label htmlFor="condition" className="text-base text-muted dark:text-white/60">I  agree with the terms and conditions</label>
                             </div>
                         </form>
                     </div>
                     <div className="lg:mt-0 mt-8">
                         <div className="flex justify-between items-center border-b border-border dark:border-dark_border focus:border-primary dark:focus:border-primary dark:bg-dark pb-6 mb-8 focus-visible:outline-none-10">
                             <h4 className="text-base mb-0">
-                                Latest news at endeavor
+                                Latest news at World Citizens Alliance
                             </h4>
                             <Link href="/blog" className="text-error hover:text-warning text-base">
                                 View all

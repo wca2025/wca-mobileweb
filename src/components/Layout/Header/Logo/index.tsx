@@ -1,11 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const Logo: React.FC = () => {
-
   return (
     <Link href="/">
-      <Image
+      {/* <Image
         src="/images/logo/logo.svg"
         alt="logo"
         width={160}
@@ -22,7 +21,13 @@ const Logo: React.FC = () => {
         style={{ width: 'auto', height: 'auto' }}
         quality={100}
         className='dark:block hidden'
-      />
+      /> */}
+      <h1
+        style={{ fontSize: "16px", fontWeight: "bold", width: "", height: "" }}
+      >
+        {" "}
+        World Citizens Alliance
+      </h1>
     </Link>
   );
 };

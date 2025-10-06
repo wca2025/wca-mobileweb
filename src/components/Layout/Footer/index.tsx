@@ -14,13 +14,10 @@ const Footer: FC = () => {
             <Logo />
             <div className="mt-6">
               <p className="text-sm font-light text-muted dark:text-white/60 mb-6">
-                You can relay on our amazing features list and also our customer
-                services will be great experience.
+                Empowering Individuals, Uniting Communities, Transforming The
+                World
               </p>
-              <p className="text-sm font-light text-muted dark:text-white/60 mb-0">
-                our amazing features list and also our customer services is
-                great.
-              </p>
+              <p className="text-sm font-light text-muted dark:text-white/60 mb-0"></p>
             </div>
           </div>
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
@@ -70,16 +67,14 @@ const Footer: FC = () => {
                     href="#"
                     className="text-sm text-midnight_text dark:text-white mb-0 hover:text-primary!"
                   >
-                    info@worldcitizensalliance.com
+                    info@worldcitizensalliance.org
                   </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
-            <h4 className="text-base text-midnight_text dark:text-white mb-4">
-              Causes
-            </h4>
+            <h4 className="text-base text-midnight_text dark:text-white mb-4"></h4>
             <ul className="pl-5">
               {footerLinks.slice(0, 5).map((item, index) => (
                 <li key={index} className="mb-5">
@@ -94,11 +89,9 @@ const Footer: FC = () => {
             </ul>
           </div>
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
-            <h4 className="text-base text-midnight_text dark:text-white mb-4">
-              Support
-            </h4>
+            <h4 className="text-base text-midnight_text dark:text-white mb-4"></h4>
             <ul className="pl-5">
-              {footerLinks.slice(5, 10).map((item, index) => (
+              {footerLinks.slice(5, 13).map((item, index) => (
                 <li key={index} className="mb-5">
                   <Link
                     href="#"

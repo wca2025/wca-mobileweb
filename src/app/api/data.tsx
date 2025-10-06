@@ -256,16 +256,24 @@ export const Reviews: {
 }[] = [
   {
     clientImg: "/images/testimonial/client-1.jpg",
-    clientName: "Michelle Anderson",
+    clientName: "Linda Boateng",
     review:
-      "You can relay on our amazing features list and also our customer services will be great experience. You can relay on our amazing features.",
-    post: "CEO, Theme Designer",
+    "Spending my summer teaching in rural schools was the most fulfilling experience of my life. The kids were eager to learn, and I felt like I truly made a difference.",
+    post: "Volunteer Teacher",
   },
   {
     clientImg: "/images/testimonial/client-2.jpg",
-    clientName: "Michelle Anderson",
+    clientName: "Daniel Owusu",
     review:
-      "You can relay on our amazing features list and also our customer services will be great experience. You can relay on our amazing features.",
-    post: "Managing Director, Theme Designer",
+    "Joining the health caravan in the Ashanti Region opened my eyes. We treated over 500 patients in a week—many had never seen a doctor before.",
+    post: "Medical Outreach Volunteer ",
   },
 ];
+
+   
+
+ –  
+
+
+
+
