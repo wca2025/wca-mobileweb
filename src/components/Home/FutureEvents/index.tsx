@@ -16,7 +16,7 @@ const FutureEvents = () => {
         </div>
         <div className="mt-20 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
           {Eventdata.slice(0, 3).map((item, index) => (
-            <Link key={index} href={`/events/${item.slug}`} className="group" data-aos="fade-up" data-aos-delay={`${index * 250}`}>
+            <Link key={index} href={`/#/${item.slug}`} className="group" data-aos="fade-up" data-aos-delay={`${index * 250}`}>
               <div className="relative overflow-hidden mb-8" >
                 <div className="overflow-hidden ">
                   <Image

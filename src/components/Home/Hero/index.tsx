@@ -24,7 +24,7 @@ const Hero = () => {
             <p className="text-muted dark:text-white/60 text-xs font-medium">193 days left</p>
           </div>
           <h3 className="text-midnight_text dark:text-white text-lg font-bold mb-6">
-            Give small help to african moms who struggle
+            Give  help to african moms who struggle
           </h3>
           <p className="text-muted dark:text-white/60 text-base mb-5">
           Help provide African mothers with food, healthcare, and skills to build better lives for their families.
@@ -32,11 +32,11 @@ const Hero = () => {
           <div className="grid grid-cols-2 border-t border-border dark:border-dark_border mb-5">
             <div className="col-span-1 border-r border-border dark:border-dark_border px-5 py-4">
               <p className="text-xs text-muted dark:text-white/60 mb-1 ">Raised</p>
-              <h4 className="text-2xl text-secondary">$65,360</h4>
+              <h4 className="text-2xl text-secondary">$0</h4>
             </div>
             <div className="col-span-1 px-5 py-4">
               <p className="text-xs text-muted dark:text-white/60 mb-1">Goal</p>
-              <h4 className="text-2xl text-midnight_text dark:text-white">$124,500</h4>
+              <h4 className="text-2xl text-midnight_text dark:text-white">$120,000</h4>
             </div>
           </div>
           <div className="flex justify-center">

@@ -43,7 +43,8 @@ const Newsletter = () => {
                             <h4 className="text-base mb-0">
                                 Latest news at World Citizens Alliance
                             </h4>
-                            <Link href="/blog" className="text-error hover:text-warning text-base">
+                            {/* /blog */}
+                            <Link href="/#/" className="text-error hover:text-warning text-base">
                                 View all
                             </Link>
                         </div>
