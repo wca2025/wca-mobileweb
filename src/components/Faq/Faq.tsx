@@ -1,7 +1,11 @@
 "use client";
 import React, { useState } from "react";
+type QnAItemProps = {
+  question: string;
+  answer: string;
+};
 
-const QnAItem = ({ question, answer }) => {
+const QnAItem = ({ question, answer }: QnAItemProps) => {
   const [open, setOpen] = useState(false);
 
   const styles = {
