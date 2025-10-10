@@ -4,6 +4,7 @@ import Image from "next/image";
 import Logo from "../Header/Logo";
 import { footerLinks } from "@/app/api/data";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { footerData1, footerData2 } from "./Navigation/MenuData";
 
 const Footer: FC = () => {
   return (
@@ -76,13 +77,13 @@ const Footer: FC = () => {
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
             <h4 className="text-base text-midnight_text dark:text-white mb-4"></h4>
             <ul className="pl-5">
-              {footerLinks.slice(0, 5).map((item, index) => (
+              {footerData2.slice(0, 8).map((item, index) => (
                 <li key={index} className="mb-5">
                   <Link
-                    href="#"
+                    href={item.href}
                     className="text-sm relative text-muted dark:text-white/60 hover:text-primary dark:hover:text-primary hover:before:border-primary before:content-[''] before:absolute before:w-2 before:h-2 before:border-t-2 before:border-r-2 before:top-1 before:-left-5 before:rotate-45"
                   >
-                    {item.link}
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -91,13 +92,13 @@ const Footer: FC = () => {
           <div className="lg:col-span-3 md:col-span-4 col-span-6">
             <h4 className="text-base text-midnight_text dark:text-white mb-4"></h4>
             <ul className="pl-5">
-              {footerLinks.slice(5, 13).map((item, index) => (
+              {footerData1.slice(0, 8).map((item, index) => (
                 <li key={index} className="mb-5">
                   <Link
-                    href="#"
+                    href={item.href}
                     className="text-sm relative text-muted dark:text-white/60 hover:text-primary dark:hover:text-primary hover:before:border-primary before:content-[''] before:absolute before:w-2 before:h-2 before:border-t-2 before:border-r-2 before:top-1 before:-left-5 before:rotate-45"
                   >
-                    {item.link}
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -118,25 +119,25 @@ const Footer: FC = () => {
             .
           </p>
           <div className="flex items-center gap-6">
-            <Link href="#">
+            <Link href="https://www.facebook.com/people/World-Citizens-Alliance/61573584903695/">
               <Icon
                 icon="ri:facebook-fill"
                 className="text-xl text-midnight_text dark:text-white hover:text-primary! cursor-pointer"
               />
             </Link>
-            <Link href="#">
+            <Link href="https://www.instagram.com/worldcitizensalliance/">
               <Icon
                 icon="mdi:instagram"
                 className="text-xl text-midnight_text dark:text-white hover:text-primary! cursor-pointer"
               />
             </Link>
-            <Link href="#">
+            <Link href="http://tiktok.com/@worldcitizensalliance">
               <Icon
-                icon="ri:linkedin-fill"
+                icon="ri:tiktok-fill"
                 className="text-xl text-midnight_text dark:text-white hover:text-primary! cursor-pointer"
               />
             </Link>
-            <Link href="#">
+            <Link href="https://x.com/WCAOFFICIALLY">
               <Icon
                 icon="line-md:twitter-x-alt"
                 className="text-base text-midnight_text dark:text-white hover:text-primary! cursor-pointer"

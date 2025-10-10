@@ -23,7 +23,14 @@ const Logo: React.FC = () => {
         className='dark:block hidden'
       /> */}
       <h1
-        style={{ fontSize: "16px", fontWeight: "bold", width: "", height: "" }}
+        style={{
+          fontSize: "24px",
+          fontWeight: "bold",
+          width: "",
+          height: "",
+          paddingTop: "5px",
+          marginTop: "5px",
+        }}
       >
         {" "}
         World Citizens Alliance

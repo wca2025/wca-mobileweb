@@ -212,7 +212,7 @@ export const footerLinks: { link: string }[] = [
     link: "Economic Growth and Sectoral Challenges",
   },
   {
-    link: "Protection of Whistleblower",
+    link: "Protection of Whistleblowers",
   },
   {
     link: "Decent Work and Fair Wages",
@@ -245,7 +245,7 @@ export const footerLinks: { link: string }[] = [
     link: "Scam Warning",
   },
   {
-    link: "FAQ",
+    link: "🔥FAQ",
   },
 ];
 
