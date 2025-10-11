@@ -70,7 +70,7 @@ const Causes = () => {
                     <p className="text-muted dark:text-white/60 text-base pb-8 border-b-2 border-border relative after:content-[''] after:absolute after:w-70% after:h-0.5 after:-bottom-0.5 after:left-0 after:bg-linear-to-r after:from-primary after:to-secondary">
                       {item.text}
                     </p>
-                    <div className="flex gap-4 mt-4">
+                    {/* <div className="flex gap-4 mt-4">
                       <div className="pr-4 border-r-2 dark:border-dark_border">
                         <h4 className=" text-muted dark:text-white/60 text-sm mb-1">
                           Raised
@@ -83,7 +83,7 @@ const Causes = () => {
                         </h4>
                         <h5 className="text-2xl ">{item.goal}</h5>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </Link>
