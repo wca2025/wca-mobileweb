@@ -25,6 +25,24 @@ export const helpdata: { icon: string; title: string; text: string }[] = [
   },
 ];
 
+export const helpdata2: { icon: string; title: string; text: string }[] = [
+  {
+    icon: "/images/help/donation.svg",
+    title: "Give donation",
+    text: "Your donation funds vital programs and supports communities in need. Every contribution counts!",
+  },
+  {
+    icon: "/images/help/volunteer.svg",
+    title: "Become volunteer",
+    text: "Join us in making a difference! Volunteer and work directly with our community projects. Every contribution counts!",
+  },
+  {
+    icon: "/images/help/food-supply.svg",
+    title: "Provide food supply",
+    text: "Donate food supplies to help us combat hunger and support families in need. Every contribution counts!",
+  },
+];
+
 export const CauseData: {
   image: string;
   title: string;
