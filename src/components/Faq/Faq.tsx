@@ -53,15 +53,35 @@ export const Faq = () => {
         "World Citizens Alliance (WCA) is the entity that  was established in 2025 to strategically coordinate and ensure consistent operating policies and standards globally across all regions.",
     },
     {
-      question:
-        "Who started World Citizens Alliance (WCA)? How did World Citizens Alliance (WCA) begin??",
+      question: "What is the mission of World Citizens Alliance (WCA)",
       answer:
-        "World Citizens Alliance (WCA)was founded in 2025 by Edem kofi Gbeku in response to the needs of urban dwellers living on the street. ",
+        "The mission of WCA is to empower vulnerable communities—especially urban street dwellers—through sustainable development, advocacy, and faith-based support, fostering dignity, opportunity, and long-term transformation",
+    },
+
+    {
+      question: "How is World Citizens Alliance (WCA) funded?",
+      answer:
+        "World Citizens Alliance (WCA) receives a majority of its funding from individuals, foundations and corporations. Such private funding accounts for 100% of World Citizens Alliance (WCA)’s operating budget ",
     },
     {
-      question: "How is World Citizens Alliance (WCA) funded??",
+      question: "Where does World Citizens Alliance (WCA) operate?",
       answer:
-        "World Citizens Alliance (WCA) receives a majority of its funding from individuals, foundations and corporations. Such private funding accounts for 63% of World Citizens Alliance (WCA)’s operating budget, with the rest coming from multilateral agencies and governments. ",
+        "WCA operates across multiple regions globally, with a focus on urban centers where homelessness, poverty, and social exclusion are most prevalent. Its programs are tailored to local needs while maintaining global standards.",
+    },
+    {
+      question: "What types of programs does WCA implement?",
+      answer:
+        "WCA runs a variety of programs including shelter and housing initiatives, vocational training, mental health support, community leadership development, and faith-based counseling.",
+    },
+    {
+      question: "How can individuals get involved with WCA?",
+      answer:
+        "People can support WCA by volunteering, donating, partnering through their organizations, or participating in awareness campaigns. WCA encourages active citizen engagement to build stronger, more compassionate communities",
+    },
+    {
+      question: "How does WCA measure the impact of its work?",
+      answer:
+        "WCA uses a combination of community feedback, independent evaluations, and key performance indicators such as improved living conditions, employment rates, and local leadership participation to assess its impact.",
     },
     {
       question:
@@ -71,7 +91,7 @@ export const Faq = () => {
     },
     {
       question:
-        "Is World Citizens Alliance (WCA) formally tied to or a subsidiary of any other entity??",
+        "Is World Citizens Alliance (WCA) formally tied to or a subsidiary of any other entity?",
       answer:
         "World Citizens Alliance (WCA) is an independent private Christian organisation and is not formally affiliated with any government, denomination, foundation or corporation, though it maintains positive working relationships with all of these.",
     },
@@ -80,13 +100,6 @@ export const Faq = () => {
         "Do World Citizens Alliance (WCA) projects create dependence on outside resources?",
       answer:
         "No. Community development projects are designed to be sustainable with locally available resources, technology, materials, and leadership. Families and individuals share in project leadership, responsibilities, and activities from the start. They are well equipped and motivated to continue in these roles when World Citizens Alliance (WCA) ends its direct involvement in a community.      ",
-    },
-
-    {
-      question:
-        "Do people living in project communities contribute to World Citizens Alliance (WCA) projects?",
-      answer:
-        "Communities always contribute to development projects and have a real sense of ownership and true participation. Community participation is integral to transformational development.",
     },
   ];
 
