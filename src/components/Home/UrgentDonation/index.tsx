@@ -7,7 +7,7 @@ import { useContext } from "react";
 const UrgentDonation = () => {
   const donationInfo = useContext(DonationFormContext);
   return (
-    <section className="relative bg-[url('/images/background/donate-banner.jpg')] bg-cover sm:py-52 lg:py-28 py-16 bg-no-repeat">
+    <section className="relative bg-[url('/images/background/donate-banner.jpg')] bg-cover sm:py-52 lg:py-28 py-16 bg-no-repeat min-h-[300px]">
       {/* Overlay to darken the background */}
       <div className="absolute inset-0 bg-black/50"></div>
 

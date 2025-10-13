@@ -134,7 +134,7 @@ export const Faq = () => {
         <section className="grid lg:grid-cols-2 gap-10 items-center">
           <div className="relative w-full h-64 lg:h-96">
             <Image
-              src="/images/causes/cause-5.jpg"
+              src="/images/causes/cause-4.jpg"
               alt="Our identity"
               fill
               className="object-cover rounded-lg"
@@ -174,7 +174,7 @@ export const Faq = () => {
         <section className="grid lg:grid-cols-2 gap-10 items-center">
           <div className="relative w-full h-64 lg:h-96">
             <Image
-              src="/images/causes/cause-6.jpg"
+              src="/images/causes/cause-9.jpg"
               alt="Our faith"
               fill
               className="object-cover rounded-lg"
