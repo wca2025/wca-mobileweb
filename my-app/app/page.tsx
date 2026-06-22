@@ -10,7 +10,9 @@ export default function Jobs() {
   const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const res = await fetch(
-      `https://jobs.worldcitizensalliance.org/jobs?query=${query}&location=${location}`
+      `/api/jobs?query=${encodeURIComponent(
+        query
+      )}&location=${encodeURIComponent(location)}`
     );
     const data = await res.json();
     setJobs(data.jobs || []);
